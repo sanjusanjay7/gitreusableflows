@@ -5,7 +5,7 @@ on:
 jobs:
   Plan_Dev:
     if: github.ref == 'refs/heads/main'
-    uses: sanjusanjay7/gitreusableflows/.github/workflows/aws_tf_plan.yml@main
+    uses: sanjusanjay7/gitreusableflows/.gitkhub/workflows/aws_tf_plan.yml@main
     with:
       path: S3Bucket
       tf_vars_file: dev.tfvars
