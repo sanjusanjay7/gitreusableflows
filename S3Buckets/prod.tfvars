@@ -1,1 +1,1 @@
-bucket_name = "prodcloudqucikpocstestingbukcket"
+bucket_name = "prodcloudqucikpocstestingbucket"
