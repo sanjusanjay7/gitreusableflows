@@ -2,7 +2,7 @@
 terraform {
   required_providers {
     aws = {
-      source = "hashicorp/aaws"
+      source = "hashicorp/aws"
     }
   }
 
