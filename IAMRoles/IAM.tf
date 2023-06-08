@@ -1,6 +1,6 @@
 resource "aws_iam_role_policy" "test_policy" {
   name = "test_policy"
-  role = aws_iam_role.test_role.id
+  role = aws_iam_role.arn:aws:iam::152327351501:role/test_role
 
   # Terraform's "jsonencode" function converts a
   # Terraform expression result to valid JSON syntax.
