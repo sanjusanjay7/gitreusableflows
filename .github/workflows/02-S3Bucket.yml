@@ -15,7 +15,7 @@ jobs:
 
   Deploy_Dev:
     needs: Plan_Dev
-    uses: sanjusanjay7/gitreusableflows/.github/workflows/aws_tf_appy.yml@main
+    uses: sanjusanjay7/gitreusableflows/.github/workflows/aws_tf_apply.yml@main
     with:
       path: S3Bucket
       tf_vars_file: dev.tfvars
@@ -35,7 +35,7 @@ jobs:
 
   Deploy_Uat:
     needs: Plan_Uat
-    uses: sanjusanjay7/gitreusableflows/.github/workflows/aws_tf_appy.yml@main
+    uses: sanjusanjay7/gitreusableflows/.github/workflows/aws_tf_apply.yml@main
     with:
       path: S3Bucket
       tf_vars_file: uat.tfvars
